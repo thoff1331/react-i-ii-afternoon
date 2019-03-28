@@ -1,0 +1,130 @@
+body{
+  background-color: black;
+}
+
+.Header {
+background-color: rgb(0, 167, 209);
+height: 10vh;
+width: 100vw;
+display: flex;
+justify-content: center;
+
+}
+
+.boxone {
+  background-color: rgb(194, 191, 191);
+  display: flex;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  height: 55vh;
+  width:  80vw;
+  
+}
+.home {
+background: transparent;
+border: none;
+color: black;
+border-radius: 100%;
+padding: 25px;
+position: absolute;
+top:1%;
+left: 2%;
+font-size: 20px;
+text-decoration: black;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.new {
+background-color: rgb(0, 167, 209);
+border-radius: 30%;
+position: absolute;
+left: 53%;
+top: 86%;
+padding: 10px;
+text-align: center;
+color: white;
+font-size: 15px;
+
+}
+
+.edit {
+  background-color: rgb(0, 167, 209);
+  border-radius: 30%;
+  position: absolute;
+  left: 42%;
+  top: 86%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+
+}
+
+.delete {
+  background-color: rgb(0, 167, 209);
+  border-radius: 30%;
+  position: absolute;
+  left: 47%;
+  top: 86%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+
+}
+
+.next {
+background: transparent;
+background-color: black;
+border: none;
+border-radius: 30%;
+position: absolute;
+left: 85%;
+top: 86%;
+
+text-align: center;
+color: white;
+font-size: 20px;
+}
+
+
+.previous {
+
+background: transparent;
+background-color: black;
+border: none;
+border-radius: 30%;
+position: absolute;
+left: 9%;
+top: 86%;
+
+text-align: center;
+color: white;
+font-size: 20px;
+
+} 
+.name {
+position:absolute;
+left: 5%;
+text-decoration: underline;
+text-decoration-color: rgb(0, 167, 209);
+font-weight: bolder;
+font-size: 20px;
+}
+
+.titles {
+  position:absolute;
+  left: 30%;
+  font-weight: bolder; 
+  font-size: 15px;
+}
+
+.number {
+position:absolute;
+right: 10%;
+top: 30%;
+background: transparent;
+font-size: 50px;
+
+}
